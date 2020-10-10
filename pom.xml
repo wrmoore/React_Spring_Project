@@ -11,7 +11,7 @@
   <artifactId>express-spring-refactor</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>demo</name>
-  <description>Launch Academy Spring Template</description>
+  <description>Launch Academy com.launchacademy.expressspringrefactor.Main Template</description>
   <packaging>jar</packaging>
   
   <properties>
@@ -28,11 +28,11 @@
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-security</artifactId>
+      <artifactId>spring-boot-starter-thymeleaf</artifactId>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-thymeleaf</artifactId>
+      <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>

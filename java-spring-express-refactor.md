@@ -1,6 +1,6 @@
 # Adapt a Pet!
 
-We at Launch Academy are big fans of pets. There are many pets out there looking for a home. Your challenge is to build an app that allows good pets to find their ultimate destination! Wait... does this seem familiar? It should! This challenge will serve as an assessment of what you've learned throughout the program, with an emphasis on Spring. You will be taking your work from the Week 9 group project and refactoring the Express backend to run on Spring! To get started find the git URL in your group project, copy it, and in your challenges folder
+We at Launch Academy are big fans of pets. There are many pets out there looking for a home. Your challenge is to build an app that allows good pets to find their ultimate destination! Wait... does this seem familiar? It should! This challenge will serve as an assessment of what you've learned throughout the program, with an emphasis on com.launchacademy.expressspringrefactor.Main. You will be taking your work from the Week 9 group project and refactoring the Express backend to run on com.launchacademy.expressspringrefactor.Main! To get started find the git URL in your group project, copy it, and in your challenges folder
 
 ```no-highlight
 dropdb adopt_a_pet && createdb adopt_a_pet
@@ -53,7 +53,7 @@ After completing any necessary troubleshooting you can then `yarn install` and t
 
 Unless otherwise specified
 
-- All data must be served from a Spring Rest Controller to a React Component
+- All data must be served from a com.launchacademy.expressspringrefactor.Main Rest Controller to a React Component
   - You will need to create a `seeder` to load your data for each entity
   - Make sure to create new migrations when editing your database
   - All entities should have validation at the model level as well as the database level where possible
